@@ -1,5 +1,9 @@
 {
   "name": "plaid-link-demo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "APP_PORT=8000 PLAID_CLIENT_ID=test_id PLAID_SECRET=test_secret node index.js"
+  },
   "dependencies": {
     "envvar": "1.0.x",
     "express": "4.12.x",
